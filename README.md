@@ -53,7 +53,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/DeiVor24/Labirintas.git
+    git clone https://github.com/DeiVor24/easy-money.git
     ```
 2. Install NPM packages
     ```sh
@@ -74,7 +74,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-DeiVor24: [Github](https://github.com/DeiVor24/Labirintas.git)
+DeiVor24: [Github](https://github.com/DeiVor24/easy-money.git)
 
 ## ⚠️ License
 
