@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://deivor24.github.io/Labirintas/
+Site published at: https://deivor24.github.io/easy-money/
 
 Design:
 - [Easy money](https://dribbble.com/shots/14587898-Trade-Website) main layout
