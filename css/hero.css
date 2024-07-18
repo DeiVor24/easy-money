@@ -22,8 +22,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hero .main-title > span{
+.hero .main-title > span > a {
     color: blue;
+    text-decoration: none;
+}
+
+.hero .main-title > span > a{
+    color: red;
+    display: inline-block;
+    padding: 0 10px;
+    transform: rotate(-10deg);
+    text-decoration: none;
+    border: 5px solid red;
 }
 hero .hero-img .description {
     font-size: 16px;
