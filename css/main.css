@@ -1,8 +1,10 @@
 body {
+    width: 100%;
     padding-bottom: 60px;
     margin: 0;
     background-color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
 }
 .container {
     display: inline-block;
@@ -15,6 +17,23 @@ body {
 
 .main > .container + .container {
     margin-top: 60px;
+}
+
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 60%;
+    gap: 20px 40px;
+    max-height: 80px;
+    overflow: hidden;
+    
+
+}
+
+.brand-list > img {
+    height: 30px;
 }
 .main-footer{
     display:flex;
