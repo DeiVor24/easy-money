@@ -48,6 +48,11 @@ body {
 }
 .main-footer > div > a {
     font-size: 20px;
+    color: grey;
+}
+.main-footer > div > a:hover {
+    font-size: 20px;
+    color:blue;
 }
 .main-footer > p {
     margin: 0;
