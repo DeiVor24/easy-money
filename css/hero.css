@@ -1,5 +1,11 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
 .hero .texts {
-    float: left;
     width: 35%;
 }
 
@@ -22,24 +28,61 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.hero .main-title > span > a {
+.hero .main-title > span {
     color: blue;
-    text-decoration: none;
+   
 }
 
-.hero .main-title > span > a{
+.hero .main-title > span > {
     color: red;
     display: inline-block;
     padding: 0 10px;
     transform: rotate(-10deg);
-    text-decoration: none;
     border: 5px solid red;
 }
+
+.hero .main-title > .crazy,
+.hero .main-title:hover > .crazy {
+    display: inline-block;
+    color: red;
+    padding: 0 10px;
+    border: 2px solid red;
+    transform: rotate(-10deg);
+}
+
+.crazy::before,
+.crazy::after,
+.crazy .sqr::before,
+.crazy .sqr::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border: 2px solid red;
+    position: absolute;
+}
+.crazy::before {
+    top: -7px;
+    left: -7px;
+}
+.crazy::after {
+    top: -7px;
+    right: -7px;
+}
+.crazy .sqr::before {
+    bottom: -7px;
+    left: -7px;
+}
+.crazy .sqr::after {
+    bottom: -7px;
+    right: -7px;
+}
+
 hero .hero-img .description {
     font-size: 16px;
     color: grey;
 }
 .hero .hero-img {
-    float: right;
     width: 55%;
 }
